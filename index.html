@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eid-ul-Adha Mubarak</title>
+</head>
+<style>
+    @media (max-width:600px){
+        .main{
+            position: relative;
+            width: 97vw;
+            height: 180vw;
+            background-color: aqua;
+        }
+        #bg{
+            width: 97vw;
+            height: 180vw;
+            position: absolute;
+
+        }
+        #eid{
+            position: absolute;
+            width: 70vw;
+            left: 15vw;
+            bottom: 10vw;
+            animation-name: bot;
+            opacity: 0;
+            animation-duration: 2s;
+             animation-fill-mode: forwards;
+        }
+        #frame{
+            position: absolute;
+            width: 90vw;
+            top: 40vw;
+            left: 3vw;
+            animation-name:frame;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+        #l1{
+            position: absolute;
+            width: 40vw;
+            top: -25vw;
+            left: 57vw;
+            animation-name: lights;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes lights {
+            form{
+                opacity: 0;
+                top: -25vw;
+            }
+            to{
+                top: 0vw;
+                opacity: 1;
+            }
+        }
+        #l2{
+            position: absolute;
+            width: 40vw;
+            top: -25vw;
+            animation-name: lights;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes lamp {
+            from{
+                opacity: 0;
+                top:-50vw;
+            }
+            to{
+                opacity: 1;
+                top: -3vw;
+            }
+        }
+        #lam1{
+            position: absolute;
+            width: 10vw;
+            left: 7vw;
+            opacity: 0;
+            top: -50vw;
+            animation-name: lamp;
+            animation-duration: 2s;
+            animation-delay: 0.5;
+            animation-fill-mode: forwards;
+        }
+        #lam2{
+            position: absolute;
+            width: 10vw;
+            left: 20vw;
+            top: -10vw;
+            animation-name: lamp;
+            animation-duration: 2.5s;
+            animation-fill-mode: forwards;
+        }
+        #lam3{
+            position: absolute;
+            width: 10vw;
+            left: 80vw;
+            top: -3vw;
+            animation-name: lamp;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+        }
+        #lam4{
+            position: absolute;
+            width: 10vw;
+            top: -10vw;
+            left: 68vw;
+            animation-name: lamp;
+            animation-duration: 2.5s;
+            animation-fill-mode: forwards;
+
+        }
+        #moon{
+            position: absolute;
+            width: 50vw;
+            left: 22vw;
+            top: 58vw;
+            animation-name: moon;
+            animation-duration: 3s;
+            animation-fill-mode: forwards;
+        }
+        @keyframes moon {
+            from{
+                opacity: 0;
+                top: 68vw;
+            }
+            to
+            {
+                opacity: 1;
+                top: 58vw;
+            }
+        }
+        @keyframes frame{
+            from{
+                opacity: 0;
+                top: 68vw;
+            }
+            to
+            {
+                opacity: 1;
+                top: 40vw;
+            }
+        }
+       #f1{
+        position: absolute;
+        width: 30vw;
+        top: 148vw;
+        left: 65vw;
+        animation-name: rightside;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+       }
+       #f2{
+        position: absolute;
+        width: 30vw;
+        top: 148vw;
+        left: 1.5vw;
+        animation-name: leftside;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+       }
+       @keyframes leftside {
+        from{
+            opacity: 0;
+            left: -50vw;
+        }
+        to{
+            opacity: 1;
+            left:1.5vw;
+        }
+       }
+       @keyframes rightside {
+        from{
+            opacity: 0;
+            left: 100vw;
+        }
+        to{
+            opacity: 1;
+            left:65vw;
+        }
+       }
+       @keyframes bot {
+        form{
+            opacity: 0;
+            bottom: 10vw;
+        }
+        to{
+            opacity: 1;
+            bottom: 35vw;
+        }
+       }
+       #ahmad{
+        position: absolute;
+        width: 60vw;
+        left:20vw;
+        bottom: 15vw;
+        animation-name: ahmad;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+       }
+       @keyframes ahmad {
+        from{
+            bottom: 0vw;
+            opacity: 0;
+        }
+        to{
+            bottom: 15vw;
+            opacity: 1;
+        }
+       }
+
+    }
+</style>
+<body>
+    <div class="main">
+        <img src="/bg.png" alt="" srcset="" id="bg">
+            <img src="./eidmubarak.png" alt="" srcset="" id="eid">
+            <img src="./frame.png" alt="" id="frame">
+            <img src="./l1.png" alt="" id="l1">
+            <img src="./l2.png" alt="" id="l2">
+            <img src="./lam2.png" alt="" id="lam1">
+            <img src="./lam.png" alt="" id="lam2">
+            <img src="./lam2.png" alt="" id="lam3">
+            <img src="./lam.png" alt="" id="lam4">
+            <img src="./rf.png" alt="" id="f1">
+            <img src="./lf.png" alt="" id="f2">
+            <img src="./moon.png" alt="" id="moon">
+            <img src="./ahmad.png" alt="" id="ahmad">
+            
+
+    </div>
+</body>
+</html>
